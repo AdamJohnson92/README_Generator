@@ -1,9 +1,8 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require("inquirer")
-//const generateMarkdown = require("generateMarkdown")
 const fs = require("fs")
-
+const generateMarkdown = require("./utils/generateMarkdown")
 
 
 // TODO: Create an array of questions for user input
@@ -37,9 +36,10 @@ const questions = [
         message: 'Provide any credits to contributors.',
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'Provide the license code for the application. If there is no license, please leave empty',
+        message: 'Select a license from the following list.',
+        choices: ['MIT', 'MPL 2.0', 'ODC BY', 'ISC', 'This application does not have a license']
     },
   
   ];
@@ -49,27 +49,8 @@ inquirer
   .then((data) => {
     console.log(data)
 
-let readmeContent = 
-`# ${data.name}
 
-## Description
-${data.description}
-    
-## Installation
-${data.installation}
-    
-## Usage
-${data.usage}
-    
-## Credit
-${data.credits}
-    
-## License
-${data.license}`;
-
-const filename = "draftREADME.md";
-
-fs.writeFile(filename, readmeContent, (err) =>
+fs.writeFile("draftREADME.md", generateMarkdown(data), (err) =>
     err ? console.log(err) : console.log('Success!')
     );
   });
