@@ -1,14 +1,13 @@
 // TODO: Include packages needed for this application
 
 const inquirer = require("inquirer")
+//const generateMarkdown = require("generateMarkdown")
 const fs = require("fs")
 
 
 
 // TODO: Create an array of questions for user input
-//const questions = [];
-inquirer
-  .prompt([
+const questions = [
     {
       type: 'input',
       name: 'name',
@@ -42,7 +41,10 @@ inquirer
         message: 'Provide the license for the application.',
     },
   
-  ]) 
+  ];
+
+inquirer
+  .prompt(questions) 
   .then((data) => {
     console.log(data)
 
@@ -63,11 +65,11 @@ ${data.credits}
     
 ## License
 ${data.license}`;
-    const filename = "README.md";
 
-    fs.writeFile(filename, readmeContent
-     , (err) =>
-      err ? console.log(err) : console.log('Success!')
+const filename = "draftREADME.md";
+
+fs.writeFile(filename, readmeContent, (err) =>
+    err ? console.log(err) : console.log('Success!')
     );
   });
 
