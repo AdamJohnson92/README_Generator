@@ -35,10 +35,11 @@ const questions = [
         type: 'input',
         name: 'credits',
         message: 'Provide any credits to contributors.',
-
+    },
+    {
         type: 'input',
         name: 'license',
-        message: 'Provide the license for the application.',
+        message: 'Provide the license code for the application. If there is no license, please leave empty',
     },
   
   ];
@@ -48,8 +49,8 @@ inquirer
   .then((data) => {
     console.log(data)
 
-    let readmeContent = 
-    `# ${data.name}
+let readmeContent = 
+`# ${data.name}
 
 ## Description
 ${data.description}
@@ -60,7 +61,7 @@ ${data.installation}
 ## Usage
 ${data.usage}
     
-## Credits
+## Credit
 ${data.credits}
     
 ## License

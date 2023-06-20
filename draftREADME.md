@@ -1,16 +1,16 @@
-# Test app
+# E
 
 ## Description
-kkk
+E
     
 ## Installation
-qqq
+E
     
 ## Usage
-qqq
+E
     
-## Credits
-undefined
+## Credit
+E
     
 ## License
-qqq
+E
