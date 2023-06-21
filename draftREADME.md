@@ -1,4 +1,4 @@
-# Anna
+# README Generator
 
   ## Table of Contents
   
@@ -13,20 +13,20 @@
   License
   
   ## Description
-  bb
+  This is a Command Line application that can generate a README.MD file utilizing user input for the content of the README.
 
   ## Installation
-  bb
+  Must have NodeJs and the npm Inquirer Package  v8.2.4 installed to run the application.
 
   ## Usage
-  bb
+  In your command terminal, type "node [file-path]. In this case, it's easiest to type node index, and then hit tab to auto complete the path. You will then be prompted with a series of questions. Answer each question about the application. The final question will be  a list of Licenses. Choose the correct license. If your license is not present, you can select the last option that there is no license, and then you will be able to enter the license information manually once the readme is generated. It will be generated under the file name    draft README.MD.
   
   ## Credits
-  bb
+  Contributions to this application are courtesy of the starter code provided by BootCamp Spot. Additional contributions regarding the functioning of the license section is courtesy of BCS tutor Faran Navazi.
       
   ## License
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
   
-  This project is licensed under the terms of the Apache 2.0 license.
+  
+  This project is licensed under the terms of the This application does not have a license license.
   
   
