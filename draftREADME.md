@@ -1,22 +1,30 @@
-# RR
+# Q
 
   ## Description
-  RR
+  Q
 
   # Table of Contents
+  
   Installation
+  
   Usage
+  
   Credits
+  
   License
       
   ## Installation
-  RRRR
+  Q
       
   ## Usage
-  RR
+  Q
       
   ## Credits
-  R
+  Q
       
   ## License
-  [![License: Open Data Commons Attribution](https://img.shields.io/badge/License-ODC_BY-brightgreen.svg)](https://opendatacommons.org/licenses/by/)
+  [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+  
+  This project is licensed under the terms of the ISC license.
+  
+  

@@ -39,7 +39,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Select a license from the following list.',
-        choices: ['MIT', 'MPL 2.0', 'ODC BY', 'ISC', 'This application does not have a license']
+        choices: ['Apache 2.0', 'ISC', 'MIT', 'MPL 2.0', 'ODC BY', 'This application does not have a license']
     },
   
   ];
@@ -54,11 +54,6 @@ fs.writeFile("draftREADME.md", generateMarkdown(data), (err) =>
     err ? console.log(err) : console.log('Success!')
     );
   });
-
-
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {}
