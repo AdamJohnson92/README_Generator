@@ -46,13 +46,17 @@ const questions = [
 
 inquirer
   .prompt(questions) 
-  .then((data) => {
+  .then(function(data) {
     console.log(data)
 
-
-fs.writeFile("draftREADME.md", generateMarkdown(data), (err) =>
-    err ? console.log(err) : console.log('Success!')
-    );
+  fs.writeFile("draftREADME.md", generateMarkdown (data), function (err)
+      {if (err) 
+        {console.log(err)
+       } else {
+          console.log('Success!')
+        }
+      }
+      );
   });
 
 // TODO: Create a function to initialize app
