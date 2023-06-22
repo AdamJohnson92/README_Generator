@@ -44,7 +44,24 @@ const questions = [
   
   ];
 
-inquirer
+// inquirer
+//   .prompt(questions) 
+//   .then(function(data) {
+//     console.log(data)
+
+//   fs.writeFile("draftREADME.md", generateMarkdown (data), function (err)
+//       {if (err) 
+//         {console.log(err)
+//        } else {
+//           console.log('Success!')
+//         }
+//       }
+//       );
+//   });
+
+// TODO: Create a function to initialize app
+function init() {
+  inquirer
   .prompt(questions) 
   .then(function(data) {
     console.log(data)
@@ -57,10 +74,7 @@ inquirer
         }
       }
       );
-  });
-
-// TODO: Create a function to initialize app
-function init() {}
+  });}
 
 // Function call to initialize app
 init();
