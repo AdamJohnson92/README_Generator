@@ -1,9 +1,9 @@
 
  
 
-  # GG
+  # A
  
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  
  
   ## Table of Contents
   
@@ -18,30 +18,28 @@
   License
   
   ## Description
-  GG
+  A
 
   ## Installation
-  GG
+  A
 
   ## Usage
-  GG
+  A
   
   ## Contribute
-  GG
+  A
 
   ## Test
-  GG
+  A
   
   ## Credits
-  GG
+  A
 
   ## License
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  
-  This project is licensed under the terms of the Apache 2.0 license.
+  This project does not have a license.
 
   ## Contact
-  GitHub: https://github.com/GG
+  GitHub: https://github.com/A
   
-  email: GG
+  email: A
   
