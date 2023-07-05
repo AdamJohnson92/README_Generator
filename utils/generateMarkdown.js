@@ -84,9 +84,14 @@ function generateMarkdown(data) {
 
   ## Usage
   ${data.usage}
+
+  ![alt text](./screencap1.PNG)
+  ![alt text](./screencap2.PNG)
   
   ## Contribute
   ${data.contribution}
+
+  [GitHub Repo: (https://github.com/)]
 
   ## Test
   ${data.test}

@@ -1,9 +1,9 @@
 
  
 
-  # Sample README for Grading
+  # Express JS Note Taker
  
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
   ## Table of Contents
   
@@ -24,26 +24,28 @@
   [Questions](#questions)
   
   ## Description
-  For demonstrating what an unedited generated Readme looks like.
+  This application allows users to save their notes to a private server to allow them to keep track of their to-dos.
 
   ## Installation
-  Extra steps include requiring node js and the npm Inquirer package, version 8.2.4
+  This application requires nodeJS, and the npm packages for Express v 4.18.2 and the npm UUID generator v 9.0.0. 
 
   ## Usage
-  In your command terminal, type "node {file-path}". In this case, it's easiest to type "node index", and then hit tab to auto complete the path. You will then be prompted with a series of questions. Answer each question about the application. The final question will be a list of Licenses. Choose the correct license. If your license is not present, you can select the last option that there is no license, and then you will be able to enter the license information manually once the readme is generated. It will be generated under the file name draft README.MD.
+  Users initiate the application in their CLI by entering 'npm start' to start the server. Once the server is live, they can open the localhost link in their browser. From there, users can click the blue GET STARTED button to be taken to the notes section. In the left column are all notes that have previously been saved and in the right column is where a user can enter the title and text content of a  new note. Once the note is complete, users can save it to the server by clicking the 'save' icon. A user can pull up the text of a previously saved note by clicking on its title in the left column. While viewing a note, if they want to enter a new note, they can click the + icon to  be given the text input boxes again. Users can delete any note by clicking the red trashcan icon next to any saved note. 
   
   ## Contribute
-  To contribute, reach out to the below contact information for access to the repo."
+  N/A
 
   ## Test
-  Just try it out I guess?
+  N/A
   
   ## Credits
-  N/A
+  Setting up the apiRoutes.js and the fsUtils.js files as separate from the server.js file courtesy of BCS tutor Faran Navazi. Faran also assisted in setting up the UUID generator.
 
   ## License
   
-  This project does not have a license.
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+  This project is licensed under the terms of the MIT license.
 
   ## Questions?
 
