@@ -1,7 +1,7 @@
 
  
 
-  # Express JS Note Taker
+  # Mongo Social Network
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
@@ -24,22 +24,27 @@
   [Questions](#questions)
   
   ## Description
-  This application allows users to save their notes to a private server to allow them to keep track of their to-dos.
+  These are the backend api routes for updateing a MongoDB database using Mongoose.
 
   ## Installation
-  This application requires nodeJS, and the npm packages for Express v 4.18.2 and the npm UUID generator v 9.0.0. 
+  Requires NodeJS, ExpressJS, and Mongoose.
 
   ## Usage
-  Users initiate the application in their CLI by entering 'npm start' to start the server. Once the server is live, they can open the localhost link in their browser. From there, users can click the blue GET STARTED button to be taken to the notes section. In the left column are all notes that have previously been saved and in the right column is where a user can enter the title and text content of a  new note. Once the note is complete, users can save it to the server by clicking the 'save' icon. A user can pull up the text of a previously saved note by clicking on its title in the left column. While viewing a note, if they want to enter a new note, they can click the + icon to  be given the text input boxes again. Users can delete any note by clicking the red trashcan icon next to any saved note. 
+  These API routes can all be tested in API testing software such as Insomnia. You can add, update, read, and delete Users and their Thoughts from a hypothetical social media website. You can also add and delete reactions, which are like comments that can be placed on a specific thought.
+
+  ![alt text](./screencap1.PNG)
+  ![alt text](./screencap2.PNG)
   
   ## Contribute
-  N/A
+  
+
+  [GitHub Repo: (https://github.com/)]
 
   ## Test
-  N/A
+  
   
   ## Credits
-  Setting up the apiRoutes.js and the fsUtils.js files as separate from the server.js file courtesy of BCS tutor Faran Navazi. Faran also assisted in setting up the UUID generator.
+  Many model and controller templates used came from BCS Unit 18 inclass exercises. Asssistance with seeding the database, courtesy of BCS instructor Rebecca Goldstien, and assistance with creating the Reaction post and delete routes courtesy of BCS tutor Jehyun Jung
 
   ## License
   
