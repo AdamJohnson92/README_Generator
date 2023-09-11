@@ -1,7 +1,7 @@
 
  
 
-  # Mongo Social Network
+  # Adam Johnson Portfolio
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  
@@ -24,27 +24,27 @@
   [Questions](#questions)
   
   ## Description
-  These are the backend api routes for updateing a MongoDB database using Mongoose.
+  This is a portfolio, built from scratch using React to render the page. Potential employers and collaborators can explore my portfolio, learn about me, view projects that I have worked on, and view/download my resume."
 
   ## Installation
-  Requires NodeJS, ExpressJS, and Mongoose.
+  This application runs using the npm packages for React, including React DOM, React Scripts, and React Tooltips, and was deployed with the gh-pages Dev Dependency."
 
   ## Usage
-  These API routes can all be tested in API testing software such as Insomnia. You can add, update, read, and delete Users and their Thoughts from a hypothetical social media website. You can also add and delete reactions, which are like comments that can be placed on a specific thought.
+  Portoflio visitors can click on the tabs in the navigation bar in the header to view the About Me, Portfolio, Contact, and Resume pages. On the portfolio page, users can click on the screenshot of each portfolio item to be taken to the corresponding deployed application, or alternatively, they can click on the text box to be taken to the corresponding github repo. In the Contact page, users can write at message to Adam including their email. This is not fully functional at this time. On the Resume page, users  can read my resume and download a pdf.
 
   ![alt text](./screencap1.PNG)
   ![alt text](./screencap2.PNG)
   
   ## Contribute
-  
+  N/A
 
   [GitHub Repo: (https://github.com/)]
 
   ## Test
-  
+  N/A
   
   ## Credits
-  Many model and controller templates used came from BCS Unit 18 inclass exercises. Asssistance with seeding the database, courtesy of BCS instructor Rebecca Goldstien, and assistance with creating the Reaction post and delete routes courtesy of BCS tutor Jehyun Jung
+  Much of the React code came from inclass examples from Bootcamp Spot's Fullstack Flex Bootcamp, Module-20.
 
   ## License
   
